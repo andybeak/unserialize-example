@@ -1,0 +1,20 @@
+{
+    "name": "andybeak/unserialize-example",
+    "description": "An example of insecure deserialization in PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Beak",
+            "email": "andy.beak@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "UnserializeDemo\\":"src/"
+        }
+    }
+}
